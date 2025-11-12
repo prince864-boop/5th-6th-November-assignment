@@ -1,0 +1,53 @@
+// MCQ And Short Ans
+
+Q1. ans - (c) - Building user interfaces
+Q2. ans - (b) - Write HTML-like code inside JavaScript
+Q3. ans - (c) - Props are immutable and flow parent → child
+Q4. ans - (c) - camelCase
+Q5. ans - (b) -  Vritual DOM
+
+Q6. ans
+
+import React from "react";
+
+function HelloWorld() {
+  return <h1>Hello, React!</h1>;
+}
+
+export default HelloWorld;
+
+Q7. ans
+
+functional component is a plain JS function that return JSX.
+
+Class component is a JS(ES6) class that extends React.component.
+
+Q8. ans
+
+React component names start with a capital letter because it helps react to know somethinh is custom component or  a built-in HTML tag.
+
+Q9. ans
+
+JSX - A syntax extension that allows to Write HTML-like code inside JavaScript.
+
+Plain Js - It use code using react creartElement()function.
+
+Q10. Ans
+
+import React from "react";
+
+function Button() {
+  const handleClick = () => {
+    console.log("Button clicked!");
+  };
+
+  return (
+    <button
+      onClick={handleClick}
+    >
+      Click Here
+    </button>
+  );
+}
+
+export default Button;
